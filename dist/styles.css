@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'KGBlankSpaceSKetch';
+    src: url("fonts/KGBlankSpaceSketch.ttf")
+}
+
+:root {
+    --font-size-tab: 2.2rem;
+    --font-weight-tab: normal;
+    --font-clr-tab: #fff;
+    --fg-opacity: 0.90;
+    --fg-background-clr: #1f1f1f;
+    --fg-text-clr: #fff;
+    --bg-opacity: 0.90;
+}
+
+
+/*** *CSS Reset ***/
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'KGBlankSpaceSketch', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*** *Page Styles ***/
+
+#content {
+    background-image: url("images/pizzeria.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 55%;
+    background-size: cover;
+    opacity: var(--bg-opacity);
+    min-height: 100vh;
+}
+
+.page_nav {
+    position: relative;
+}
+
+.page_nav>.parent_nav {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--fg-background-clr);
+    opacity: var(--fg-opacity);
+    align-items: center;
+}
+
+.page_nav>.parent_nav>div>li {
+    list-style: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.page_nav>.parent_nav>div>li:hover {
+    scale: 1.15;
+}
+
+.page_nav>.parent_nav>div>li a {
+    text-decoration: none;
+    color: var(--font-clr-tab);
+    font-size: var(--font-size-tab);
+    font-weight: var(--font-weight-tab);
+    transition: all 0.3s ease-in-out;
+}
+
+.left_link {
+    font-size: var(--font-size-tab);
+    color: var(--font-clr-tab);
+    font-weight: var(--font-weight-tab);
+}
+
+.center_links {
+    flex: 0 1 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.tab_content {
+    margin: 10rem auto;
+    border-radius: 10px;
+    max-width: 50vw;
+    background-color: var(--fg-background-clr);
+    color: var(--fg-text-clr);
+    opacity: var(--fg-opacity);
+    font-size: 3rem;
+    padding: 3rem;
+}
