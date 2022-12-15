@@ -1,3 +1,5 @@
-import launchHomePage from "./modules/homepage";
+import launchHomePage, { storyTab } from "./modules/homepage";
+import menu from "./modules/menu";
 
 launchHomePage();
+menu();

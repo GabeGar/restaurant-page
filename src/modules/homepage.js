@@ -3,7 +3,7 @@ const mainContentDiv = document.querySelector("#content");
 
 export default function launchHomePage() {
     createNavigation();
-    createStory();
+    storyTab();
 }
 
 function createNavigation() {
@@ -73,15 +73,11 @@ function createNavigation() {
     mainContentDiv.appendChild(nav);
 }
 
-function createStory() {
-    const parentDiv = document.createElement("div");
-    parentDiv.classList.add("tab_content");
+export function storyTab() {
+    const tabContent = document.createElement("div");
+    tabContent.classList.add("tab_content");
+    tabContent.textContent =
+        "Here at Pizzeria, we strive to make only the FRESHEST PIZZAS, known to all of rome. We are a family run business, in operation since 1885! The Pizza here is SO good, in fact, Julius Caesar (from down the street) even gave us a thumbs up! Can you believe it?!";
 
-    const childDiv = document.createElement("div");
-    childDiv.classList.add("story_content");
-    childDiv.textContent =
-        "Here at Pizzeria, we strive to make only the FRESHEST PIZZA, known to all of rome. We are a family run business, in operation since 1912! The Pizza here is SO good, in fact, Julius Caesar (from down the street) even gave us a thumbs up! Can you believe it?!";
-
-    parentDiv.appendChild(childDiv);
-    mainContentDiv.appendChild(parentDiv);
+    mainContentDiv.appendChild(tabContent);
 }
