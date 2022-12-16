@@ -1,5 +1,6 @@
 import launchHomePage, { storyTab } from "./modules/homepage";
 import menu from "./modules/menu";
+import contact from "./modules/contact";
 
 launchHomePage();
 
@@ -15,6 +16,10 @@ function changeTab(e) {
 
     if (e.target.textContent === "Story") {
         storyTab();
+    }
+
+    if (e.target.textContent === "Contact") {
+        contact();
     }
 
     // Add Gallery, Contact and Order Online Functionality

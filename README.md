@@ -26,4 +26,3 @@ Images:
 Font(s):
 
 1. KGBlankSpaceSketch by Kimberly Geswein @ https://www.kimberlygeswein.com/
-2. KGBlankSpaceSolid by Kimberly Geswein @ https://www.kimberlygeswein.com/

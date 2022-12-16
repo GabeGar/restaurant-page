@@ -19,7 +19,7 @@ function createNavigation() {
         const div = document.createElement("div");
 
         if (i === 0) {
-            div.classList.add("left_link");
+            div.classList.add("restaurant_title");
             div.textContent = "Pizzeria";
             divList.push(div);
         }
@@ -75,7 +75,7 @@ function createNavigation() {
 
 export function storyTab() {
     const story =
-        "Here at Pizzeria, we strive to make only the FRESHEST PIZZAS, known to all of rome. We are a family run business, in operation since 1885! The Pizza here is SO good, in fact, Julius Caesar (from down the street) even gave us a thumbs up! Can you believe it?!";
+        "Here at Pizzeria, we strive to make only the FRESHEST PIZZAS, known to all of rome. We are a family run business, in operation since 1885! The Pizza here is SO good, in fact, Julius Caesar The XV (my uncle, from down the street) even gave us a thumbs up! Can you believe it?!";
     if (mainContentDiv.childElementCount < 2) {
         // will create the first tab content div and never be accessed here.
         const tabContent = document.createElement("div");
