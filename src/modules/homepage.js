@@ -74,10 +74,17 @@ function createNavigation() {
 }
 
 export function storyTab() {
-    const tabContent = document.createElement("div");
-    tabContent.classList.add("tab_content");
-    tabContent.textContent =
+    const story =
         "Here at Pizzeria, we strive to make only the FRESHEST PIZZAS, known to all of rome. We are a family run business, in operation since 1885! The Pizza here is SO good, in fact, Julius Caesar (from down the street) even gave us a thumbs up! Can you believe it?!";
-
-    mainContentDiv.appendChild(tabContent);
+    if (mainContentDiv.childElementCount < 2) {
+        // will create the first tab content div and never be accessed here.
+        const tabContent = document.createElement("div");
+        tabContent.classList.add("tab_content", "display_content");
+        tabContent.textContent = story;
+        mainContentDiv.appendChild(tabContent);
+    } else {
+        // accesses tab content that already exists due to the code above.
+        const tabContent = document.querySelector(".tab_content");
+        tabContent.textContent = story;
+    }
 }

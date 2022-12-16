@@ -2,4 +2,22 @@ import launchHomePage, { storyTab } from "./modules/homepage";
 import menu from "./modules/menu";
 
 launchHomePage();
-menu();
+
+const tabs = document.querySelectorAll("li");
+
+function changeTab(e) {
+    const currentTab = document.querySelector(".tab_content");
+    changeTab.textContent = "";
+
+    if (e.target.textContent === "Menu") {
+        menu();
+    }
+
+    if (e.target.textContent === "Story") {
+        storyTab();
+    }
+
+    // Add Gallery, Contact and Order Online Functionality
+}
+
+tabs.forEach((tab) => tab.addEventListener("click", changeTab));

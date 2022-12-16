@@ -1,10 +1,8 @@
-const mainContentDiv = document.querySelector("#content");
-
 export default function menu() {
     const priceText = "S - $9.99 / M - $12.99 / L - $15.99";
     const tabContentDiv = document.querySelector(".tab_content");
     tabContentDiv.textContent = "";
-    tabContentDiv.classList.add("menu");
+    tabContentDiv.classList.add("display_content");
 
     for (let i = 1; i <= 4; i++) {
         const newImg = document.createElement("img");
@@ -39,7 +37,7 @@ export default function menu() {
 
         if (i === 4) {
             menuDescription.textContent =
-                "The...Burger? How'd that get in there? Nobody told me we were selling juicy burgers.";
+                "The... Burger? How'd that get in there? Nobody told me we were selling juicy burgers.";
             newImg.classList.add("menu_img");
             newImg.src = `images/image${i}.jpg`;
             newImg.alt = "Menu item";
