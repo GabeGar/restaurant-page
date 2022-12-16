@@ -12,22 +12,22 @@ function changeTab(e) {
     currentTab.classList.remove("gallery");
     currentTab.textContent = "";
 
-    if (e.target.textContent === "Menu") {
-        menu();
-    }
-
     if (e.target.textContent === "Story") {
         storyTab();
     }
 
-    if (e.target.textContent === "Contact") {
-        contact();
+    if (e.target.textContent === "Menu") {
+        menu();
     }
 
     if (e.target.textContent === "Gallery") {
         currentTab.classList.remove("display_content");
         currentTab.classList.add("gallery");
         gallery();
+    }
+
+    if (e.target.textContent === "Contact") {
+        contact();
     }
 
     if (e.target.textContent === "Order Online") {
