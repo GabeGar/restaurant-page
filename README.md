@@ -8,8 +8,8 @@ Project created for TheOdinProject curriculum @ TheOdinProject.com
 
 **_Skills_Applied_**
 
-1. Using Webpack to bundle JS modules
-2. DOM manipulation
+1. DOM manipulation
+2. Utilizing Webpack module bundler, node package manager (npm)
 
 **_Credits_**
 
