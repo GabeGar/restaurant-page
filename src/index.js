@@ -22,6 +22,10 @@ function changeTab(e) {
         contact();
     }
 
+    if (e.target.textContent === "Order Online") {
+        window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+    }
+
     // Add Gallery, Contact and Order Online Functionality
 }
 

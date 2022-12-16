@@ -31,4 +31,10 @@ export default function contact() {
     }
 
     tabContentDiv.appendChild(listInfo);
+
+    const contactFooter = document.createElement("p");
+    contactFooter.textContent =
+        "We're open 24/7, 365 days a year! Every minute of everyday, making pizzas (and burgers, apparently) for you to enjoy; Come on down.";
+
+    tabContentDiv.appendChild(contactFooter);
 }

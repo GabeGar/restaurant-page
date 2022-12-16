@@ -13,24 +13,24 @@ export default function menu() {
         if (i === 1) {
             menuDescription.textContent = "The Basil & Tomato Pizza Pie";
 
-            newImg.classList.add("menu_img");
-            newImg.src = `images/image${i}.jpg`;
+            newImg.classList.add("img");
+            newImg.src = `images/menu/image${i}.jpg`;
             newImg.alt = "Menu item";
             pricePara.textContent = priceText;
         }
 
         if (i === 2) {
             menuDescription.textContent = "Pepperoni & Sausage Pizza Pie";
-            newImg.classList.add("menu_img");
-            newImg.src = `images/image${i}.jpg`;
+            newImg.classList.add("img");
+            newImg.src = `images/menu/image${i}.jpg`;
             newImg.alt = "Menu item";
             pricePara.textContent = priceText;
         }
 
         if (i === 3) {
             menuDescription.textContent = "The Supreme Pizza Pie";
-            newImg.classList.add("menu_img");
-            newImg.src = `images/image${i}.jpg`;
+            newImg.classList.add("img");
+            newImg.src = `images/menu/image${i}.jpg`;
             newImg.alt = "Menu item";
             pricePara.textContent = priceText;
         }
@@ -38,8 +38,8 @@ export default function menu() {
         if (i === 4) {
             menuDescription.textContent =
                 "The... Burger? How'd that get in there? Nobody told me we were selling juicy burgers.";
-            newImg.classList.add("menu_img");
-            newImg.src = `images/image${i}.jpg`;
+            newImg.classList.add("img");
+            newImg.src = `images/menu/image${i}.jpg`;
             newImg.alt = "Menu item";
             pricePara.textContent =
                 "I guess we'll give these out for... free.99!";
