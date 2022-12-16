@@ -8,6 +8,7 @@ export default function contact() {
     tabContentDiv.appendChild(contactHeader);
 
     const listInfo = document.createElement("ul");
+    listInfo.style.fontSize = "1.2rem";
 
     for (let i = 0; i < 4; i++) {
         const li = document.createElement("li");
@@ -21,7 +22,7 @@ export default function contact() {
         }
 
         if (i === 2) {
-            li.textContent = "Email: fakeEmail@fakeEmails.com";
+            li.textContent = "Email: fakeEmail@fakemails.com";
         }
 
         if (i === 3) {
@@ -33,6 +34,7 @@ export default function contact() {
     tabContentDiv.appendChild(listInfo);
 
     const contactFooter = document.createElement("p");
+    contactFooter.style.fontSize = "2.2rem";
     contactFooter.textContent =
         "We're open 24/7, 365 days a year! Every minute of everyday, making pizzas (and burgers, apparently) for you to enjoy; Come on down.";
 
