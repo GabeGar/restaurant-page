@@ -39,7 +39,6 @@ body {
 }
 
 .page_nav>.parent_nav {
-    position: relative;
     padding: 0.5rem;
     display: flex;
     justify-content: space-around;
@@ -82,7 +81,7 @@ body {
     transform-origin: center;
 }
 
-.left_link {
+.restaurant_title {
     font-size: var(--font-size-tab);
     color: var(--font-clr-tab);
     font-weight: var(--font-weight-tab);
