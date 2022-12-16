@@ -48,9 +48,6 @@ Project created for TheOdinProject curriculum @ TheOdinProject.com
 4. Leaning tower of Pisa (Pizza ;) ) by Davide Ragusa @ https://unsplash.com/@davideragusa
    Link -> https://unsplash.com/photos/1PHDS-PFtcM
 
-5. Rialto Bridge in Italy, by Damiano Baschiera @ https://unsplash.com/@damiano_baschiera
-   Link -> https://unsplash.com/photos/hFXZ5cNfkOk
-
 **_Font(s):_**
 
 1. KGBlankSpaceSketch by Kimberly Geswein @ https://www.kimberlygeswein.com/
