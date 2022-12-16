@@ -118,7 +118,20 @@ body {
     gap: 1rem;
 }
 
-.img {
+.menu_img {
     width: 300px;
     height: 100%;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.gallery_img {
+    width: 400px;
+    height: 400px;
 }

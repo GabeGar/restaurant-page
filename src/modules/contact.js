@@ -1,6 +1,6 @@
 export default function contact() {
     const tabContentDiv = document.querySelector(".tab_content");
-    tabContentDiv.textContent = "";
+    tabContentDiv.classList.add("display_content");
 
     const contactHeader = document.createElement("p");
     contactHeader.textContent = "Contact Information";
