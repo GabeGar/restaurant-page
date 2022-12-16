@@ -1,8 +1,15 @@
 # restaurant-page
 
 **_Goal_**
+Create a restaurant page by manipulating the DOM, via javascript only.
+Styles can implemented via both JS and css style sheet.
 
-**_Thoughts_**
+Project created for TheOdinProject curriculum @ TheOdinProject.com
+
+**_Skills_Applied_**
+
+1. Using Webpack to bundle JS modules
+2. DOM manipulation
 
 **_Credits_**
 
