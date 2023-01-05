@@ -34,6 +34,7 @@ body {
     background-repeat: no-repeat;
     background-position: 50% 55%;
     background-size: cover;
+    background-attachment: fixed;
     opacity: var(--bg-opacity);
     min-height: 100vh;
 }
